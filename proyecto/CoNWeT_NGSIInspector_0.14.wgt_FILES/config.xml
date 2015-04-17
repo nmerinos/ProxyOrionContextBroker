@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Template xmlns="http://wirecloud.conwet.fi.upm.es/ns/template#">
+    <Catalog.ResourceDescription>
+        <Vendor>CoNWeT</Vendor>
+        <Name>NGSIInspector</Name>
+        <DisplayName>NGSI Inspector</DisplayName>
+        <Author>fdelavega</Author>
+        <Version>0.14</Version>
+        <Mail>fdelavega@conwet.com</Mail>
+        <Description>Test ngsi</Description>
+        <ImageURI>images/catalogue.png</ImageURI>
+        <iPhoneImageURI>images/smartphone.png</iPhoneImageURI>
+        <WikiURI></WikiURI>
+ 
+        <Requirements>
+            <Feature name="NGSI"/>
+        </Requirements>
+ 
+    </Catalog.ResourceDescription>
+ 
+    <Platform.Link>
+        <XHTML href="index.html" contenttype="text/html" cacheable="true" use-platform-style="true"/>
+    </Platform.Link>
+ 
+    <Platform.Rendering width="5" height="20"/>
+</Template>

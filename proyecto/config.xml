@@ -1,0 +1,495 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+  xmlns:foaf="http://xmlns.com/foaf/0.1/"
+  xmlns:wire="http://wirecloud.conwet.fi.upm.es/ns/widget#"
+  xmlns:gr="http://purl.org/goodrelations/v1#"
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:usdl="http://www.linked-usdl.org/ns/usdl-core#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:wire-m="http://wirecloud.conwet.fi.upm.es/ns/mashup#"
+  xmlns:dcterms="http://purl.org/dc/terms/"
+  xmlns:vcard="http://www.w3.org/2006/vcard/ns#"
+>
+  <wire-m:Mashup rdf:about="http://wirecloud.conwet.fi.upm.es/ns/mashup#CoNWeT/NGSI Example/1.0">
+    <dcterms:title>NGSI Example</dcterms:title>
+    <wire-m:hasMashupWiring>
+      <wire:PlatformWiring rdf:nodeID="N4645f9b9e1944af7865fa57a32b2d1ec">
+        <wire-m:hasWiringView>
+          <wire-m:WiringView rdf:nodeID="N8613e292ae854081a46b94a8df86a2c6">
+            <wire-m:hasView>
+              <wire-m:View rdf:nodeID="Ndbfb2c48eb2648ba945d3117543b358e">
+                <wire:id>1</wire:id>
+                <wire-m:hasSource>
+                  <wire-m:Source rdf:nodeID="N729698734abc49639845825457738fa0">
+                    <wire:index>0</wire:index>
+                    <rdfs:label>entityOutput</rdfs:label>
+                  </wire-m:Source>
+                </wire-m:hasSource>
+                <wire:type>operator</wire:type>
+                <wire-m:hasPosition>
+                  <wire-m:Position rdf:nodeID="Nb7e20825f56144f0aee460e3f59b3d37">
+                    <wire-m:y>187</wire-m:y>
+                    <wire-m:x>87</wire-m:x>
+                  </wire-m:Position>
+                </wire-m:hasPosition>
+              </wire-m:View>
+            </wire-m:hasView>
+            <wire-m:hasView>
+              <wire-m:View rdf:nodeID="Ne3a654cff8984a89bd6af614ae12663a">
+                <wire-m:hasSource>
+                  <wire-m:Source rdf:nodeID="Ne77aab0351d5486cb5fce2064c543b82">
+                    <wire:index>2</wire:index>
+                    <rdfs:label>addressOutput</rdfs:label>
+                  </wire-m:Source>
+                </wire-m:hasSource>
+                <wire-m:hasTarget>
+                  <wire-m:Target rdf:nodeID="Nf26937bc7bcc43feb62461011014037b">
+                    <rdfs:label>routeStepInput</rdfs:label>
+                    <wire:index>3</wire:index>
+                  </wire-m:Target>
+                </wire-m:hasTarget>
+                <wire-m:hasTarget>
+                  <wire-m:Target rdf:nodeID="Nda90367f91a64cb981658bab126356c6">
+                    <rdfs:label>poiInputCenter</rdfs:label>
+                    <wire:index>6</wire:index>
+                  </wire-m:Target>
+                </wire-m:hasTarget>
+                <wire-m:hasSource>
+                  <wire-m:Source rdf:nodeID="N81cb00db549349bf813f98bf6642e934">
+                    <rdfs:label>utmCoordOutput</rdfs:label>
+                    <wire:index>3</wire:index>
+                  </wire-m:Source>
+                </wire-m:hasSource>
+                <wire-m:hasSource>
+                  <wire-m:Source rdf:nodeID="N4e9ec665799340e49c297742f92b85e5">
+                    <wire:index>1</wire:index>
+                    <rdfs:label>urlRouteMapOutput</rdfs:label>
+                  </wire-m:Source>
+                </wire-m:hasSource>
+                <wire-m:hasSource>
+                  <wire-m:Source rdf:nodeID="N2799b70f87e94e1b903f3fe59cf25663">
+                    <wire:index>0</wire:index>
+                    <rdfs:label>routeDescriptionOutput</rdfs:label>
+                  </wire-m:Source>
+                </wire-m:hasSource>
+                <wire-m:hasTarget>
+                  <wire-m:Target rdf:nodeID="N01d275726b504c0398f58992c7badb3f">
+                    <rdfs:label>selectPoiInput</rdfs:label>
+                    <wire:index>7</wire:index>
+                  </wire-m:Target>
+                </wire-m:hasTarget>
+                <wire-m:hasTarget>
+                  <wire-m:Target rdf:nodeID="N5f4dec75544043e29f51207152a266a4">
+                    <rdfs:label>routeInput</rdfs:label>
+                    <wire:index>2</wire:index>
+                  </wire-m:Target>
+                </wire-m:hasTarget>
+                <wire:id>3430</wire:id>
+                <wire-m:hasTarget>
+                  <wire-m:Target rdf:nodeID="N7d0270b24e2e4441801b85ee691de436">
+                    <wire:index>5</wire:index>
+                    <rdfs:label>deletePoiInput</rdfs:label>
+                  </wire-m:Target>
+                </wire-m:hasTarget>
+                <wire-m:hasTarget>
+                  <wire-m:Target rdf:nodeID="Nf66f51d98ce34b0c8402f2970c2cc2e8">
+                    <wire:index>1</wire:index>
+                    <rdfs:label>coordsInput</rdfs:label>
+                  </wire-m:Target>
+                </wire-m:hasTarget>
+                <wire-m:hasSource>
+                  <wire-m:Source rdf:nodeID="N18b0e6ae14e74fdf926dd773d82902d7">
+                    <wire:index>6</wire:index>
+                    <rdfs:label>poiListOutput</rdfs:label>
+                  </wire-m:Source>
+                </wire-m:hasSource>
+                <wire:type>widget</wire:type>
+                <wire-m:hasTarget>
+                  <wire-m:Target rdf:nodeID="N9695c51556734630829ed6371baf8e36">
+                    <rdfs:label>poiInput</rdfs:label>
+                    <wire:index>4</wire:index>
+                  </wire-m:Target>
+                </wire-m:hasTarget>
+                <wire-m:hasSource>
+                  <wire-m:Source rdf:nodeID="Na8412bb13b52445aa1c2063f7d45a0bb">
+                    <rdfs:label>boundsOutput</rdfs:label>
+                    <wire:index>7</wire:index>
+                  </wire-m:Source>
+                </wire-m:hasSource>
+                <wire-m:hasTarget>
+                  <wire-m:Target rdf:nodeID="N7b30f75162f945f6916b0c8a7d6a9601">
+                    <rdfs:label>addressInput</rdfs:label>
+                    <wire:index>0</wire:index>
+                  </wire-m:Target>
+                </wire-m:hasTarget>
+                <wire-m:hasSource>
+                  <wire-m:Source rdf:nodeID="Ncb3b837d769d40c0b0bd7bb91c01d96f">
+                    <rdfs:label>poiOutput</rdfs:label>
+                    <wire:index>5</wire:index>
+                  </wire-m:Source>
+                </wire-m:hasSource>
+                <wire-m:hasPosition>
+                  <wire-m:Position rdf:nodeID="Ne2634e9577e243e29df75d934838c2b2">
+                    <wire-m:y>160</wire-m:y>
+                    <wire-m:x>706</wire-m:x>
+                  </wire-m:Position>
+                </wire-m:hasPosition>
+                <wire-m:hasSource>
+                  <wire-m:Source rdf:nodeID="Nd07f382b83334355a80a09eb08faad9e">
+                    <rdfs:label>decimalCoordOutput</rdfs:label>
+                    <wire:index>4</wire:index>
+                  </wire-m:Source>
+                </wire-m:hasSource>
+              </wire-m:View>
+            </wire-m:hasView>
+            <wire-m:hasView>
+              <wire-m:View rdf:nodeID="N7755aa04780d4e8d93ba4de200e9dc2b">
+                <wire-m:hasTarget>
+                  <wire-m:Target rdf:nodeID="N4613804d1c3645fcbecdc97c11dcdbc7">
+                    <wire:index>0</wire:index>
+                    <rdfs:label>entityInput</rdfs:label>
+                  </wire-m:Target>
+                </wire-m:hasTarget>
+                <wire-m:hasPosition>
+                  <wire-m:Position rdf:nodeID="N5c07e201be2047648aff62a06ce24480">
+                    <wire-m:x>345</wire-m:x>
+                    <wire-m:y>186</wire-m:y>
+                  </wire-m:Position>
+                </wire-m:hasPosition>
+                <wire:id>2</wire:id>
+                <wire-m:hasSource>
+                  <wire-m:Source rdf:nodeID="N3bfb32de75cb4f54bfdbd10a8a1f68a5">
+                    <wire:index>0</wire:index>
+                    <rdfs:label>poiOutput</rdfs:label>
+                  </wire-m:Source>
+                </wire-m:hasSource>
+                <wire:type>operator</wire:type>
+              </wire-m:View>
+            </wire-m:hasView>
+            <rdfs:label>default</rdfs:label>
+          </wire-m:WiringView>
+        </wire-m:hasWiringView>
+        <wire:hasInputEndpoint>
+          <wire:InputEndpoint rdf:nodeID="Nb3e044b05f1049a3b048e4c5d241fc4b">
+            <wire:type>S</wire:type>
+            <rdfs:label>Address</rdfs:label>
+            <wire:friendcode>address</wire:friendcode>
+            <dcterms:title>addressInput</dcterms:title>
+            <wire:index>0</wire:index>
+            <dcterms:description>Address to be displayed on the map.</dcterms:description>
+            <wire:inputActionLabel>Map Viewer Address</wire:inputActionLabel>
+          </wire:InputEndpoint>
+        </wire:hasInputEndpoint>
+        <wire:hasOutputEndpoint>
+          <wire:OutputEndpoint rdf:nodeID="N80d1b55edecd4474abe5aff9488f7126">
+            <wire:type>S</wire:type>
+            <wire:index>0</wire:index>
+            <dcterms:title>routeDescriptionOutput</dcterms:title>
+            <rdfs:label>Route Description</rdfs:label>
+            <dcterms:description>Route description step by step. It may be connected with Route Description widget.</dcterms:description>
+            <wire:friendcode>routeDescription</wire:friendcode>
+          </wire:OutputEndpoint>
+        </wire:hasOutputEndpoint>
+        <wire-m:hasConnection>
+          <wire-m:Connection rdf:nodeID="N3de2af539fb5466a91eee25e2b107fe8">
+            <wire-m:hasSource>
+              <wire-m:Source rdf:nodeID="N13f359811f00444a84aa5a5452b7f312">
+                <wire:type>ioperator</wire:type>
+                <wire-m:sourceId>2</wire-m:sourceId>
+                <wire-m:endpoint>poiOutput</wire-m:endpoint>
+              </wire-m:Source>
+            </wire-m:hasSource>
+            <wire-m:hasTarget>
+              <wire-m:Target rdf:nodeID="Nda9079b86c174610b37f1ba926cec5ff">
+                <wire:type>iwidget</wire:type>
+                <wire-m:endpoint>poiInput</wire-m:endpoint>
+                <wire-m:targetId>3430</wire-m:targetId>
+              </wire-m:Target>
+            </wire-m:hasTarget>
+          </wire-m:Connection>
+        </wire-m:hasConnection>
+        <wire:hasInputEndpoint>
+          <wire:InputEndpoint rdf:nodeID="Nc5a84eecb66b46b3b0f3ffb64bffea8e">
+            <dcterms:title>selectPoiInput</dcterms:title>
+            <rdfs:label>Select PoI</rdfs:label>
+            <wire:index>7</wire:index>
+            <wire:inputActionLabel>Map Viewer Select PoI</wire:inputActionLabel>
+            <wire:friendcode>poi</wire:friendcode>
+            <dcterms:description>Select a PoI and change the viewport centering the map on it</dcterms:description>
+            <wire:type>S</wire:type>
+          </wire:InputEndpoint>
+        </wire:hasInputEndpoint>
+        <wire-m:hasiOperator>
+          <wire-m:iOperator rdf:nodeID="N67e1fa20da1147a4a80db82f9052fb30">
+            <wire-m:hasiOperatorPreference>
+              <wire-m:iOperatorPreference rdf:nodeID="Na9e78447f15b42569c10482b0a2ee086">
+                <wire:value>{u'readonly': False, u'hidden': False, u'value': u'current_position'}</wire:value>
+                <dcterms:title>coordinates_attr</dcterms:title>
+              </wire-m:iOperatorPreference>
+            </wire-m:hasiOperatorPreference>
+            <dcterms:title>CoNWeT/ngsientity2poi/2.99</dcterms:title>
+            <wire-m:iOperatorId>2</wire-m:iOperatorId>
+          </wire-m:iOperator>
+        </wire-m:hasiOperator>
+        <wire:hasInputEndpoint>
+          <wire:InputEndpoint rdf:nodeID="Na4e5a0792d0543309e0a366bdb2ccb88">
+            <rdfs:label>Route Step</rdfs:label>
+            <wire:index>3</wire:index>
+            <wire:type>S</wire:type>
+            <wire:inputActionLabel>Map Viewer Details Steps Route</wire:inputActionLabel>
+            <dcterms:description>Detailed Step of a route. It may be connected with Route Description widget.</dcterms:description>
+            <wire:friendcode>detailStep</wire:friendcode>
+            <dcterms:title>routeStepInput</dcterms:title>
+          </wire:InputEndpoint>
+        </wire:hasInputEndpoint>
+        <wire:hasOutputEndpoint>
+          <wire:OutputEndpoint rdf:nodeID="N5809edb3dfe049889975031f289e374b">
+            <wire:index>3</wire:index>
+            <rdfs:label>UTM Coordinates</rdfs:label>
+            <wire:type>S</wire:type>
+            <dcterms:title>utmCoordOutput</dcterms:title>
+            <dcterms:description>UTM X, Y coordinates that is displayed in the map.</dcterms:description>
+            <wire:friendcode>utmCoord</wire:friendcode>
+          </wire:OutputEndpoint>
+        </wire:hasOutputEndpoint>
+        <wire:hasInputEndpoint>
+          <wire:InputEndpoint rdf:nodeID="N136a0dbfd3d240feb920a0b1eff45fd3">
+            <rdfs:label>Route</rdfs:label>
+            <wire:type>S</wire:type>
+            <wire:index>2</wire:index>
+            <wire:inputActionLabel>Map Viewer Route</wire:inputActionLabel>
+            <wire:friendcode>route</wire:friendcode>
+            <dcterms:description>Google Maps route to be displayed on the map.</dcterms:description>
+            <dcterms:title>routeInput</dcterms:title>
+          </wire:InputEndpoint>
+        </wire:hasInputEndpoint>
+        <wire:hasOutputEndpoint>
+          <wire:OutputEndpoint rdf:nodeID="N1263b00569224a369b7e79dc18b2593e">
+            <wire:type>S</wire:type>
+            <dcterms:description>Address of a Google Map marker.</dcterms:description>
+            <wire:friendcode>address</wire:friendcode>
+            <rdfs:label>Address</rdfs:label>
+            <dcterms:title>addressOutput</dcterms:title>
+            <wire:index>2</wire:index>
+          </wire:OutputEndpoint>
+        </wire:hasOutputEndpoint>
+        <wire:hasOutputEndpoint>
+          <wire:OutputEndpoint rdf:nodeID="Naf9685a30a944073a346b3a4133b49a6">
+            <wire:index>1</wire:index>
+            <wire:type>S</wire:type>
+            <dcterms:description>URL Route Map</dcterms:description>
+            <wire:friendcode>url</wire:friendcode>
+            <dcterms:title>urlRouteMapOutput</dcterms:title>
+            <rdfs:label>URL Route Map</rdfs:label>
+          </wire:OutputEndpoint>
+        </wire:hasOutputEndpoint>
+        <wire:hasOutputEndpoint>
+          <wire:OutputEndpoint rdf:nodeID="Nacd72dee0f514f8aa5edda349b9d85d4">
+            <dcterms:description>Decimal X, Y coordinates that is displayed in the map.</dcterms:description>
+            <dcterms:title>decimalCoordOutput</dcterms:title>
+            <wire:index>4</wire:index>
+            <wire:friendcode>decimalCoord</wire:friendcode>
+            <wire:type>S</wire:type>
+            <rdfs:label>Decimal Coordinates</rdfs:label>
+          </wire:OutputEndpoint>
+        </wire:hasOutputEndpoint>
+        <wire:hasInputEndpoint>
+          <wire:InputEndpoint rdf:nodeID="N63512a8f983b497f9d89edba70fff4dd">
+            <wire:friendcode>poi</wire:friendcode>
+            <wire:inputActionLabel>Map Viewer Insert/Update PoI</wire:inputActionLabel>
+            <wire:type>S</wire:type>
+            <dcterms:description>Insert or update a Point of Interest.</dcterms:description>
+            <dcterms:title>poiInput</dcterms:title>
+            <rdfs:label>Insert/Update PoI</rdfs:label>
+            <wire:index>4</wire:index>
+          </wire:InputEndpoint>
+        </wire:hasInputEndpoint>
+        <wire-m:hasiOperator>
+          <wire-m:iOperator rdf:nodeID="N2a2ca73434c345e8b2552a2fb4d4d090">
+            <wire-m:hasiOperatorPreference>
+              <wire-m:iOperatorPreference rdf:nodeID="N7954bc0d4a62439394699f9b41fd3805">
+                <wire:value>{u'readonly': False, u'hidden': False, u'value': u'Van'}</wire:value>
+                <dcterms:title>ngsi_entities</dcterms:title>
+              </wire-m:iOperatorPreference>
+            </wire-m:hasiOperatorPreference>
+            <wire-m:hasiOperatorPreference>
+              <wire-m:iOperatorPreference rdf:nodeID="N7093a0a77d5e4eeb9c041cefdd7a6b20">
+                <dcterms:title>ngsi_server</dcterms:title>
+                <wire:value>{u'readonly': False, u'hidden': False, u'value': u'http://orion.lab.fi-ware.org:10026/'}</wire:value>
+              </wire-m:iOperatorPreference>
+            </wire-m:hasiOperatorPreference>
+            <dcterms:title>CoNWeT/ngsi-source/2.99</dcterms:title>
+            <wire-m:hasiOperatorPreference>
+              <wire-m:iOperatorPreference rdf:nodeID="Nf7708f97db474aa7ab035e5d95b46858">
+                <dcterms:title>ngsi_proxy</dcterms:title>
+                <wire:value>{u'readonly': False, u'hidden': False, u'value': u'http://mashup.lab.fi-ware.org:3000/'}</wire:value>
+              </wire-m:iOperatorPreference>
+            </wire-m:hasiOperatorPreference>
+            <wire-m:hasiOperatorPreference>
+              <wire-m:iOperatorPreference rdf:nodeID="N78bdc917771445eeaa9540a940e3e972">
+                <wire:value>{u'readonly': False, u'hidden': False, u'value': u'current_position'}</wire:value>
+                <dcterms:title>ngsi_update_attributes</dcterms:title>
+              </wire-m:iOperatorPreference>
+            </wire-m:hasiOperatorPreference>
+            <wire-m:iOperatorId>1</wire-m:iOperatorId>
+          </wire-m:iOperator>
+        </wire-m:hasiOperator>
+        <wire-m:hasConnection>
+          <wire-m:Connection rdf:nodeID="Nd43dd0b2056944848f909d2c65957437">
+            <wire-m:hasTarget>
+              <wire-m:Target rdf:nodeID="N85fee3d338b34f56a0d100eb32681952">
+                <wire-m:endpoint>entityInput</wire-m:endpoint>
+                <wire:type>ioperator</wire:type>
+                <wire-m:targetId>2</wire-m:targetId>
+              </wire-m:Target>
+            </wire-m:hasTarget>
+            <wire-m:hasSource>
+              <wire-m:Source rdf:nodeID="N0497417ee80a4a9cba27fe70252132ba">
+                <wire:type>ioperator</wire:type>
+                <wire-m:sourceId>1</wire-m:sourceId>
+                <wire-m:endpoint>entityOutput</wire-m:endpoint>
+              </wire-m:Source>
+            </wire-m:hasSource>
+          </wire-m:Connection>
+        </wire-m:hasConnection>
+        <wire:hasInputEndpoint>
+          <wire:InputEndpoint rdf:nodeID="N34ac42b7493c4a568672953351f8a84e">
+            <dcterms:description>Insert or update a PoI and change the viewport centering the map on it</dcterms:description>
+            <wire:index>6</wire:index>
+            <wire:friendcode>poi</wire:friendcode>
+            <rdfs:label>Insert/Update Centered PoI</rdfs:label>
+            <wire:type>S</wire:type>
+            <wire:inputActionLabel>Map Viewer Centered PoI</wire:inputActionLabel>
+            <dcterms:title>poiInputCenter</dcterms:title>
+          </wire:InputEndpoint>
+        </wire:hasInputEndpoint>
+        <wire:hasOutputEndpoint>
+          <wire:OutputEndpoint rdf:nodeID="Nbdae4863efd3450ba4c27f9e01167d89">
+            <wire:friendcode>viewport</wire:friendcode>
+            <wire:type>S</wire:type>
+            <dcterms:title>boundsOutput</dcterms:title>
+            <rdfs:label>Change Viewport</rdfs:label>
+            <dcterms:description>Change bounds of the current viewport.</dcterms:description>
+            <wire:index>7</wire:index>
+          </wire:OutputEndpoint>
+        </wire:hasOutputEndpoint>
+        <wire:hasInputEndpoint>
+          <wire:InputEndpoint rdf:nodeID="N9ecd9b338c944005be39fe342920ff4b">
+            <wire:friendcode>poi</wire:friendcode>
+            <wire:type>S</wire:type>
+            <dcterms:description>Delete a Point of Interest.</dcterms:description>
+            <rdfs:label>Delete PoI</rdfs:label>
+            <dcterms:title>deletePoiInput</dcterms:title>
+            <wire:index>5</wire:index>
+            <wire:inputActionLabel>Map Viewer Delete PoI</wire:inputActionLabel>
+          </wire:InputEndpoint>
+        </wire:hasInputEndpoint>
+        <wire:hasInputEndpoint>
+          <wire:InputEndpoint rdf:nodeID="Nfb13f7a5af3e44e493b3a91fdd0fc745">
+            <rdfs:label>Coordinates</rdfs:label>
+            <wire:type>S</wire:type>
+            <wire:inputActionLabel>Map Viewer Coordinates</wire:inputActionLabel>
+            <dcterms:description>Google Map Marker will be show in this decimal coordinates.</dcterms:description>
+            <wire:index>1</wire:index>
+            <dcterms:title>coordsInput</dcterms:title>
+            <wire:friendcode>Coords</wire:friendcode>
+          </wire:InputEndpoint>
+        </wire:hasInputEndpoint>
+        <wire:hasOutputEndpoint>
+          <wire:OutputEndpoint rdf:nodeID="N289142748d134c48af1a5592703f4f20">
+            <rdfs:label>PoI visibility change</rdfs:label>
+            <dcterms:description>Change PoI list inside the viewport</dcterms:description>
+            <wire:friendcode>poiList</wire:friendcode>
+            <dcterms:title>poiListOutput</dcterms:title>
+            <wire:type>S</wire:type>
+            <wire:index>6</wire:index>
+          </wire:OutputEndpoint>
+        </wire:hasOutputEndpoint>
+        <wire:hasOutputEndpoint>
+          <wire:OutputEndpoint rdf:nodeID="N2e8c21c4e36b412c909bdfca986d2216">
+            <dcterms:description>A PoI has been selected on the map</dcterms:description>
+            <dcterms:title>poiOutput</dcterms:title>
+            <rdfs:label>PoI selected</rdfs:label>
+            <wire:type>S</wire:type>
+            <wire:friendcode>poi</wire:friendcode>
+            <wire:index>5</wire:index>
+          </wire:OutputEndpoint>
+        </wire:hasOutputEndpoint>
+      </wire:PlatformWiring>
+    </wire-m:hasMashupWiring>
+    <dcterms:creator>
+      <foaf:Person rdf:nodeID="Naff690576e5d473ab289c8e3a0364fb4">
+        <foaf:name>aitor</foaf:name>
+      </foaf:Person>
+    </dcterms:creator>
+    <wire:hasImageUri rdf:resource=""/>
+    <usdl:versionInfo>1.0</usdl:versionInfo>
+    <usdl:hasProvider>
+      <gr:BusinessEntity rdf:nodeID="Nf592020466a241cfb0e50d46940662e9">
+        <foaf:name>CoNWeT</foaf:name>
+      </gr:BusinessEntity>
+    </usdl:hasProvider>
+    <vcard:addr>
+      <vcard:Work rdf:nodeID="N7f136065d8e3457db23059c1c9c5451a">
+        <vcard:email>wirecloud@conwet.com</vcard:email>
+      </vcard:Work>
+    </vcard:addr>
+    <wire-m:hasTab>
+      <wire-m:Tab rdf:nodeID="Nd6bce09947c040d9966e3a0aefdfc07a">
+        <wire:index>0</wire:index>
+        <dcterms:title>Tab</dcterms:title>
+        <wire-m:hasiWidget>
+          <wire-m:iWidget rdf:nodeID="Nf3b03733b83c4d37a16660f448ecf6eb">
+            <wire-m:hasiWidgetPreference>
+              <wire-m:iWidgetPreference rdf:nodeID="Ne682cef78753498b9c3e26ac45046b5e">
+                <dcterms:title>radiusPreference</dcterms:title>
+                <wire:value>10</wire:value>
+              </wire-m:iWidgetPreference>
+            </wire-m:hasiWidgetPreference>
+            <wire-m:iWidgetId>3430</wire-m:iWidgetId>
+            <usdl:hasProvider>
+              <gr:BussisnessEntity rdf:nodeID="Na9738c0339e244d993384b953db6beaa">
+                <foaf:name>CoNWeT</foaf:name>
+              </gr:BussisnessEntity>
+            </usdl:hasProvider>
+            <wire-m:hasiWidgetPreference>
+              <wire-m:iWidgetPreference rdf:nodeID="N0cc08fa57ab04ae1919ee1a0081248e7">
+                <wire:value>13</wire:value>
+                <dcterms:title>zoomPreference</dcterms:title>
+              </wire-m:iWidgetPreference>
+            </wire-m:hasiWidgetPreference>
+            <rdfs:label>map-viewer</rdfs:label>
+            <dcterms:title>Map Viewer</dcterms:title>
+            <wire-m:hasPosition>
+              <wire-m:Position rdf:nodeID="N6fb826a43bb44db183ea4d478bf22c05">
+                <wire-m:x>0</wire-m:x>
+                <wire-m:y>0</wire-m:y>
+                <wire-m:z>0</wire-m:z>
+              </wire-m:Position>
+            </wire-m:hasPosition>
+            <wire-m:hasiWidgetPreference>
+              <wire-m:iWidgetPreference rdf:nodeID="Ndafaced293c8485f8e42524192084707">
+                <dcterms:title>centerPreference</dcterms:title>
+                <wire:value>Santander</wire:value>
+              </wire-m:iWidgetPreference>
+            </wire-m:hasiWidgetPreference>
+            <wire-m:hasiWidgetRendering>
+              <wire-m:iWidgetRendering rdf:nodeID="N1f90efca391c4ec0a4581a22415332ae">
+                <wire-m:minimized>False</wire-m:minimized>
+                <wire-m:layout>0</wire-m:layout>
+                <wire-m:fullDragboard>True</wire-m:fullDragboard>
+                <wire:renderingWidth>7</wire:renderingWidth>
+                <wire:renderingHeight>46</wire:renderingHeight>
+              </wire-m:iWidgetRendering>
+            </wire-m:hasiWidgetRendering>
+            <usdl:versionInfo>2.5.3</usdl:versionInfo>
+          </wire-m:iWidget>
+        </wire-m:hasiWidget>
+      </wire-m:Tab>
+    </wire-m:hasTab>
+    <dcterms:description>This is an example of use of the NGSI Broker features using some of the generic widgets and operators available for WireCloud.
+Wirecloud Mashup composed of: Map Viewer</dcterms:description>
+    <wire:displayName></wire:displayName>
+    <foaf:page rdf:resource="http://conwet.fi.upm.es/docs/display/wirecloud/Using+Orion+Context+Broker"/>
+  </wire-m:Mashup>
+</rdf:RDF>

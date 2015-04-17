@@ -1,0 +1,12 @@
+{
+	"name":"proxy",
+	"main":"proxy.js",
+	"dependencies":{
+		"express":"latest",
+                "errorhandler":"latest",
+		"url":"latest",
+		"http":"latest",
+		"path":"latest",
+		"request":"latest"
+	}
+}
