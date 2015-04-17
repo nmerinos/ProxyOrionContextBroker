@@ -19,14 +19,14 @@ The Proxy is standard Node.js app and doesn't require more dependencies than the
 
 ## Usage
 
-  1. Modify the file proxy.js, replace "HereYourOrionServer" for your Orion Server
-  2. Go to the project's directory in a terminal
-  3. Install dependencies
+  - Modify the file proxy.js, replace "HereYourOrionServer" for your Orion Server
+  - Go to the project's directory in a terminal
+  - Install dependencies
 
 ```
 npm install 
 ```
-  4. Run the server
+  - Run the server
   
 ```
 node proxy.js
